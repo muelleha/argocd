@@ -7,5 +7,5 @@ metadata:
     app: hello
 spec:
   containers:
-    - name: nginx-container1
+    - name: nginx-container
       image: nginx:alpine
