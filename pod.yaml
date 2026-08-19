@@ -1,11 +1,11 @@
-apiVersion: v1
-kind: Pod
-metadata:
-  name: argo-hello-pod3
-  namespace: default
-  labels:
-    app: hello
-spec:
-  containers:
-    - name: nginx-container
-      image: nginx:alpine
+#apiVersion: v1
+#kind: Pod
+#metadata:
+#  name: argo-hello-pod3
+#  namespace: default
+#  labels:
+#    app: hello
+#spec:
+#  containers:
+#    - name: nginx-container
+#      image: nginx:alpine
