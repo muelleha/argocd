@@ -7,6 +7,6 @@ spec:
     - name: busybox
       image: busybox:latest
       command: ["/bin/sh"]
-      args: ["-c", "while true; do echo hello; sleep 10; done"]
+      args: ["-c", "while true; date; sleep 10; done"]
       imagePullPolicy: IfNotPresent
   restartPolicy: Always
